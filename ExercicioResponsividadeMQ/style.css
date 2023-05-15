@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 7vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    height: 80%;
+}
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    width: 20%;
+    height: 6.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 25%;
+    font-size: 14px;
+    transition: .5s;
+   
+}
+.link:hover{
+    background-color:white;
+    color:  rgb(161, 53, 103);
+    border-radius: 2px;
+    transition: 0.5s;
+    flex-basis: 30%;
+}
+.hamburguer{
+    display: none;
+}
+.p1{
+    background-image: url(img/orion-nebula1.png);
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 1px;
+    border-radius: 10px;
+    
+
+}
+.p1 .titulo{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.titulo h1{
+    font-size: 40px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.titulo h2{
+    font-size: 20px;
+    color:aliceblue;
+}
+
+
+
+@media screen and (max-width: 768px){ 
+    .hamburguer{
+        display: inline;
+    }
+    header nav{
+        display: none;
+    }
+    
+}

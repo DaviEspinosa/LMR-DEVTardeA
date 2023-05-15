@@ -1,0 +1,69 @@
+html{
+    background-image: url(disney.png);
+
+
+}
+#menu img {
+
+    width: 100px;
+    height: 40px;
+}
+#menu {
+    width: 100%;
+    height: 40px;
+    display: table;
+}
+
+.linkMenu {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: right;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner div{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    width: 50%;
+}
+.banner figure{
+    width: 50%;
+    
+}
+.banner figure img{
+    width: 50%;
+    height: 200px;
+    float: right;
+
+}
+div p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+   display: flex;
+   justify-content: flex-end;
+   
+   
+}
+
+div h2 {
+    margin-left: 50%;
+    
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+div img {
+
+    width: 40%;
+    float: left;
+    height: 250px;
+}
