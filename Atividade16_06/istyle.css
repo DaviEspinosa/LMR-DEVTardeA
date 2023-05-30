@@ -48,9 +48,9 @@ a:hover {
 }
 .search-box{
     background-color: rgb(255, 245, 227);
-    height: 50px;
+    height: 20px;
     padding: 10px;
-    border-radius:40px ;
+    border-radius:20px ;
     display: flex;
     justify-content: space-between;
 }
@@ -66,7 +66,7 @@ a:hover {
     transition: .7s;
 }
 .search-btn, .loupe-blue{
-    height: 25px;
+    height: 20px;
     width: 40px;
     display: flex;
     justify-content: center;
@@ -85,9 +85,97 @@ a:hover {
 /* ==========fim do header ==========*/
 
 /*=============carrossel (section)============= */
-.container{
-    margin-left: 23%;
-     
+.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input{
+    display:none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slide-box img{
+    width: 100%;
+}
+
+.nav-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .nav-manual .manual-btn, nav-auto div{
+    border: 1px solid blueviolet;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .4s;
+ }
+
+ .manual-btn:not(:last-child), nav-auto div:not(:last-child){
+    margin-right: 10px;
+ }
+
+ .manual-btn:hover{
+    background-color: blueviolet;
+    
+ }
+
+ #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: rgb(113, 59, 167);
+ }
+
+ #radio1:checked ~ .primeiro{
+    margin-left: 0%;
+ }
+ #radio2:checked ~ .primeiro{
+    margin-left: -25%;
+ }
+ #radio3:checked ~ .primeiro{
+    margin-left: -50%;
+ }
+
+/*=============carrossel(teste) =============*/
+.carrossel{
+   margin-top: 150px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 90px;
+    padding-top: 30px;
+}
+.container2{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    display: flex;
+    justify-content: space-evenly;
+}
+.carrossel-IMG{
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+   border-radius: 10000px;
 }
 /* ===========Cards=========== */
 .cards{
@@ -109,7 +197,11 @@ a:hover {
     max-height: 350px;
     margin-left: 35px;
     box-shadow:20px 20px 30px -30px;
-
+    flex-basis: 15%;
+    transition: .5s;
+}
+.card:hover{
+    flex-basis: 16%;
 }
 .card :first-child{
     margin-left: 0;
@@ -137,14 +229,4 @@ a:hover {
     font-weight: 500;
     background-color: rgb(30, 155, 30);
     color: aliceblue;
-}
-@media screen and (max-widht: 720px)
-{ 
-    .cards{
-        flex-direction: column;
-    }
-    .card{
-        margin-left: 0;
-        margin-bottom: 32px;
-    }
 }
