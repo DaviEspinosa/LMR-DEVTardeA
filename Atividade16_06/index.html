@@ -1,133 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="istyle.css" />
+    <title>Eventinhos</title>
+  </head>
 
- 
-  <link rel="stylesheet" href="istyle.css">
-  <title>Eventinhos</title>
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="nav-left">
+          <div class="logo">
+            <h2>Eventinhos</h2>
+          </div>
 
-<body>
-  <header>
-    <div class="navbar">
-      <h2>Eventinhos</h2>
-      <div class="menu">
+          <div class="menu">
+            <nav>
+              <a href="#">home</a>
+              <a href="#">eventos</a>
+              <a href="#">teatros</a>
+              <a href="#">cadastro</a>
+            </nav>
+          </div>
+        </div>
+        <div class="nav-right">
+          <div class="sociais">
+            <button><i class="fa-brands fa-instagram"></i></button>
+            <button><i class="fa-brands fa-youtube"></i></button>
+            <button><i class="fa-brands fa-twitter"></i></button>
+          </div>
 
-        <a href="">Eventos</a>
-        <a href="">Teatros</a>
-        <a href="">Musicais</a>
-        <a href="">Cadastre-se</a>
-
-        <div class="search-box">
-          <input type="text" class="search-text" placeholder="Pesquise por eventos...">
-          <a href="" class="search-btn">
-            <img class="loupe-blue" src="loupe-blue.svg" alt="" width="25px" height="25px">
-            <img class="loupe-white" src="loupe-white.svg" alt="" width="25px" height="25px">
-          </a>
+          <div class="search-box">
+            <input type="text" class="search-text" placeholder="Pesquise..." />
+            <a href="" class="search-btn">
+              <img
+                class="loupe-blue"
+                src="img/loupe-blue.svg"
+                alt=""
+                width="25px"
+                height="25px"
+              />
+              <img
+                class="loupe-white"
+                src="img/loupe-white.svg"
+                alt=""
+                width="25px"
+                height="25px"
+              />
+            </a>
+          </div>
         </div>
       </div>
+    </header>
 
-    </div>
-  </header>
-  
-  <section class="slider">
-    <div class="slider-content">
+    <section class="slider">
+      <div class="slider-content">
+        <input type="radio" name="btn-radio" id="radio1" />
+        <input type="radio" name="btn-radio" id="radio2" />
+        <input type="radio" name="btn-radio" id="radio3" />
 
-        <input type="radio" name="btn-radio" id="radio1">
-        <input type="radio" name="btn-radio" id="radio2">
-        <input type="radio" name="btn-radio" id="radio3">
-    
-        <div class="slide-box primeiro">
-            <img class ="img-desktop"src="https://www.hoganassessments.com/wp-content/uploads/2016/06/1800x600.jpg" alt="slide1">
-
+        <div class="slide-box primeiro" style="background-color: aqua">
+          <img class="img-desktop" src="" alt="slide1" />
         </div>
 
-        <div class="slide-box segundo">
-            <img class ="img-desktop"src="https://b2986731.smushcdn.com/2986731/wp-content/uploads/2020/09/aeriallookingsouth-min-1800x600.jpg?lossy=1&strip=1&webp=1" alt="slide2">
-
+        <div class="slide-box segundo" style="background-color: crimson">
+          <img class="img-desktop" src="" alt="slide2" />
         </div>
 
-        <div class="slide-box terceiro">
-            <img class ="img-desktop"src="https://devvlsnxxkrq9.cloudfront.net/prod/assets/_1800x600_crop_top-center_none/1800x600-website-banners-We-value-space-to-grow-8-JERSEY.jpg" alt="slide3">
-
+        <div
+          class="slide-box terceiro"
+          style="background-color: rgb(241, 143, 52)"
+        >
+          <img class="img-desktop" src="" alt="slide3" />
         </div>
 
         <div class="nav-auto">
-
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
         </div>
 
         <div class="nav-manual">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
         </div>
+      </div>
+    </section>
 
+    <div class="carrossel">
+      <span>
+        <h1>
+          Procure por Artistas Famosos
+        </h1>
+      </span>
+      <div class="container2" id="img">
+        <img
+          class="carrossel-IMG"
+          src="https://akamai.sscdn.co/uploadfile/letras/fotos/9/6/1/2/96120701c140556cd2903cd1873c7605.jpg"
+          alt=""
+        />
+        <img
+          class="carrossel-IMG"
+          src="https://api.dialbrasil.com.br/webroot/files/Contents/image_medium_name/20200604190013Aniversario-de-Kenny-G.jpg"
+          alt=""
+        />
+        <img
+          class="carrossel-IMG"
+          src=""
+          alt=""
+          style="background-color: green"
+        />
+        <img
+          class="carrossel-IMG"
+          src="https://img.allformusic.fr/artiste/c/chet-baker/1.jpg"
+          alt=""
+        />
+        <img
+          class="carrossel-IMG"
+          src="https://cdn2.jazztimes.com/2022/08/coleman-hawkins-1960.jpg"
+          alt=""
+        />
+        <img
+          class="carrossel-IMG"
+          src="https://media.timeout.com/images/103916159/750/422/image.jpg"
+          alt=""
+        />
+      </div>
     </div>
-</section>
-  
-  
-  
-  <div class="carrossel">
-    
-    <div class="container2" id="img">
-        <img class="carrossel-IMG" src="https://akamai.sscdn.co/uploadfile/letras/fotos/9/6/1/2/96120701c140556cd2903cd1873c7605.jpg" alt="">
-        <img class="carrossel-IMG" src="https://api.dialbrasil.com.br/webroot/files/Contents/image_medium_name/20200604190013Aniversario-de-Kenny-G.jpg" alt="">
-        <img class="carrossel-IMG" src="https://www.edwards-instruments.com/wp-content/uploads/2017/07/Joseph-Alessi-800x460.jpg" alt="">
-        <img class="carrossel-IMG" src="https://img.allformusic.fr/artiste/c/chet-baker/1.jpg" alt="">
-        <img class="carrossel-IMG" src="https://cdn2.jazztimes.com/2022/08/coleman-hawkins-1960.jpg" alt="">
-        <img class="carrossel-IMG" src="https://media.timeout.com/images/103916159/750/422/image.jpg" alt="">
+
+
+
+    <div class="cards">
+      <section class="card">
+        <div class="card-img">
+          <img src="img/lconcerto_piano.png" alt="Contact us." />
+        </div>
+        <h3>Contact us</h3>
+        <span
+          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
+          dolor, sit amet consectetur adipisicing elit.</span
+        >
+        <button>Learn More</button>
+      </section>
+
+      <section class="card">
+        <div class="card-img">
+          <img
+            src="https://www.ufpb.br/ufpb/contents/noticias/orquestra-da-ufpb-recebe-o-maestro-peruano-fernando-villate-nesta-sexta-18/33573396_890881824448299_8262404844183093248_o.jpg/@@images/5f89d1a7-537a-47ec-878e-baf049855c19.jpeg"
+            alt="Shop here"
+          />
+        </div>
+        <div class="card-conteudo">
+          <h3>Shop here</h3>
+          <span
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit.
+          </span>
+          <button>Learn More</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-img">
+          <img
+            src="https://4.bp.blogspot.com/-yhJSt8lxM3M/W200NflzGvI/AAAAAAAAInY/E0ReaiOH7gk0g9KroSBNHmCZo0-V9aT6ACLcBGAs/s1600/Bahia%2BBrass%2BQuinteto%2Bde%2BMetais%2Bse%2Bapresenta%2Bpela%2Bprimeira%2Bvez%2Bem%2BFeira%2Bde%2BSantana%2B2.jpg"
+            alt="About us."
+          />
+        </div>
+        <div class="card-conteudo">
+          <h3>About us</h3>
+          <span
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
+            ipsum dolor sit amet, consectetur adipisicing</span
+          >
+          <button>Learn More</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-img">
+          <img
+            src="https://mid.curitiba.pr.gov.br/2016/capa/00176061.jpg"
+            alt="Contact us."
+          />
+        </div>
+        <h3>Contact us</h3>
+        <span
+          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
+          dolor, sit amet consectetur adipisicing elit.
+        </span>
+        <button>Learn More</button>
+      </section>
     </div>
-
-</div>
-
-<hr>
-
-  <div class="cards">
-    <section class="card">
-      <div class="icon">
-        <img src="lconcerto_piano.png" alt="Contact us.">
-      </div>
-      <h3>Contact us</h3>
-      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-      </span>
-      <button>Learn More</button>
-    </section>
-    <section class="card">
-      <div class="icon">
-        <img src="https://www.ufpb.br/ufpb/contents/noticias/orquestra-da-ufpb-recebe-o-maestro-peruano-fernando-villate-nesta-sexta-18/33573396_890881824448299_8262404844183093248_o.jpg/@@images/5f89d1a7-537a-47ec-878e-baf049855c19.jpeg" alt="Shop here">
-      </div>
-      <h3>Shop here</h3>
-      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </span>
-        <button>Learn More</button>
-    </section>
-    <section class="card">
-      <div class="icon">
-        <img src="https://4.bp.blogspot.com/-yhJSt8lxM3M/W200NflzGvI/AAAAAAAAInY/E0ReaiOH7gk0g9KroSBNHmCZo0-V9aT6ACLcBGAs/s1600/Bahia%2BBrass%2BQuinteto%2Bde%2BMetais%2Bse%2Bapresenta%2Bpela%2Bprimeira%2Bvez%2Bem%2BFeira%2Bde%2BSantana%2B2.jpg" alt="About us.">
-      </div>
-      <h3>About us</h3>
-      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </span>
-        <button>Learn More</button>
-    </section>
-    <section class="card">
-      <div class="icon">
-        <img src="https://mid.curitiba.pr.gov.br/2016/capa/00176061.jpg" alt="Contact us.">
-      </div>
-      <h3>Contact us</h3>
-      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-      </span>
-      <button>Learn More</button>
-    </section>
-  </div>
-</body>
-<script src="iscript.js"></script>
+  </body>
+  <script src="iscript.js"></script>
+  <script
+    src="https://kit.fontawesome.com/6dda5f6271.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
