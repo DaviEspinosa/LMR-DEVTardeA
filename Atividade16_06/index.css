@@ -13,6 +13,8 @@ body {
 }
 /*------BODY-PT2-----*/
 body {
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -52,12 +54,16 @@ body {
 .logo {
   width: 30% inherit;
   color: green;
-
   display: flex;
   align-items: center;
 }
+.voltar-index{
+  text-decoration: none;
+  color: green;
+}
 
 .menu {
+  
   width: 30% inherit;
 }
 /*===============*/
@@ -172,9 +178,10 @@ header {
 }
 
 .slider-content {
-  width: 300%;
+  width: 100%;
   height: auto;
   display: flex;
+  align-items: flex-end;
 }
 
 .slider-content input {
@@ -196,7 +203,6 @@ header {
 .nav-manual {
   position: absolute;
   width: 80%;
-  margin-top: 26%;
   display: flex;
   justify-content: center;
 }
@@ -433,11 +439,12 @@ li {
   border-radius: 5px;
   cursor: pointer;
   font-size: 25px;
-  transition: 1s;
+  transition: .5s;
 }
 .sociais-footer button:hover{
   background-color: rgb(43, 43, 43);
   color: aliceblue;
-  transition: 1s;
+  transition: .5s;
 } 
+
 

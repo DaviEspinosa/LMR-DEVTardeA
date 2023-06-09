@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Cadastre-se</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="nav-left">
+          <div class="logo">
+            <a href="index.html" class="voltar-index"><h2>Eventinhos</h2></a>
+          </div>
+
+          <div class="menu">
+            <nav>
+              <a href="#">home</a>
+              <a href="#">eventos</a>
+              <a href="#">teatros</a>
+              <a href="#">cadastro</a>
+            </nav>
+          </div>
+        </div>
+        <div class="nav-right">
+          <div class="sociais">
+            <button><i class="fa-brands fa-instagram"></i></button>
+            <button><i class="fa-brands fa-youtube"></i></button>
+            <button><i class="fa-brands fa-twitter"></i></button>
+          </div>
+
+          <div class="search-box">
+            <form action="">
+              <input
+                type="text"
+                class="search-text"
+                placeholder="Pesquise..."
+              />
+            </form>
+            <a href="" class="search-btn">
+              <img
+                class="loupe-blue"
+                src="img/loupe-blue.svg"
+                alt=""
+                width="25px"
+                height="25px"
+              />
+              <img
+                class="loupe-white"
+                src="img/loupe-white.svg"
+                alt=""
+                width="25px"
+                height="25px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-forms">
+      <div class="cabecalho">
+        <h2>Crie uma conta</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="">Usuário</label>
+
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite seu nome de usuário..."
+          />
+
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+
+          <input
+            type="text"
+            id="email"
+            placeholder="Digite seu endereço de e-mail..."
+          />
+
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Senha</label>
+
+          <input type="text" id="password" placeholder="Digite sua senha..." />
+
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Confirme sua Senha</label>
+
+          <input
+            type="text"
+            id="password-confirmation"
+            placeholder="Confirme sua senha..."
+          />
+
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <footer>
+      <div class="cidades">
+        <h2>CIDADES</h2>
+        <hr />
+        <ul>
+          <li>São Paulo</li>
+          <br />
+          <li>Limeira</li>
+          <br />
+          <li>Campinas</li>
+          <br />
+          <li>Ribeirão Preto</li>
+          <br />
+          <li>Jundiaí</li>
+          <br />
+          <li>Campo Grande</li>
+        </ul>
+      </div>
+
+      <div class="categorias">
+        <h2>CATEGORIAS</h2>
+        <hr />
+        <ul>
+          <li>Teatros</li>
+          <br />
+          <li>Musicais</li>
+          <br />
+          <li>Eventos</li>
+          <br />
+          <li>Concerto</li>
+          <br />
+          <li>Palestras</li>
+          <br />
+          <li>Esporte</li>
+        </ul>
+      </div>
+      <div class="ajuda">
+        <h2>AJUDA</h2>
+        <hr />
+        <ul>
+          <li>Central de Ajuda</li>
+          <br />
+          <li>Compradores e Participantes</li>
+          <br />
+          <li>Produtores de Eventos</li>
+        </ul>
+        <div class="sociais-footer">
+          <button><i class="fa-brands fa-instagram"></i></button>
+          <button><i class="fa-brands fa-youtube"></i></button>
+          <button><i class="fa-brands fa-twitter"></i></button>
+          <button><i class="fa-brands fa-github"></i></button>
+          <button><i class="fa-brands fa-facebook"></i></button>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/6dda5f6271.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="cadastro.js"></script>
+</html>
