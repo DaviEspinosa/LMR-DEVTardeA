@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+     <!-- Link Swiper's CSS -->
+     <link
+     rel="stylesheet"
+     href="https://unpkg.com/swiper/swiper-bundle.min.css"
+   />
     <link rel="stylesheet" href="index.css" />
     <title>Eventinhos</title>
   </head>
@@ -20,10 +24,10 @@
 
           <div class="menu">
             <nav>
-              <a href="#">home</a>
-              <a href="#">eventos</a>
+              <a href="index.html">home</a>
+              <a href="eventos.html">eventos</a>
               <a href="#">teatros</a>
-              <a href="#">cadastro</a>
+              <a href="cadastro.html">cadastro</a>
             </nav>
           </div>
         </div>
@@ -77,13 +81,13 @@
             <img class="img-desktop" src="" alt="slide1" />
           </div>
 
-          <div class="slide-box segundo" style="background-color: crimson">
+          <div class="slide-box segundo" style="background-color: rgb(8, 75, 151)">
             <img class="img-desktop" src="" alt="slide2" />
           </div>
 
           <div
             class="slide-box terceiro"
-            style="background-color: rgb(241, 143, 52)"
+            style="background-color: rgb(37, 106, 196)"
           >
             <img class="img-desktop" src="" alt="slide3" />
           </div>
@@ -94,58 +98,77 @@
             <div class="auto-btn3"></div>
           </div>
 
-          <div class="nav-manual">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-          </div>
-        </div>
+          
       </section>
-
-      <div class="carrossel">
-        <span class="span-carrossel">
-          <h1>Procure por Artistas Famosos</h1>
-        </span>
-        <div class="container2" id="img">
-          <img
-            class="carrossel-IMG"
-            src=""
-            alt=""
-            style="background-color: rgb(0, 255, 98)"
-          />
-          <img
-            class="carrossel-IMG"
-            src=""
-            alt=""
-            style="background-color: rgb(0, 255, 98)"
-          />
-          <img
-            class="carrossel-IMG"
-            src=""
-            alt=""
-            style="background-color: rgb(0, 255, 98)"
-          />
-          <img
-            class="carrossel-IMG"
-            src=""
-            alt=""
-            style="background-color: rgb(0, 255, 98)"
-          />
-          <img
-            class="carrossel-IMG"
-            src=""
-            alt=""
-            style="background-color: rgb(0, 255, 98)"
-          />
-          <img
-            class="carrossel-IMG"
-            src=""
-            alt=""
-            style="background-color: rgb(0, 255, 98)"
-          />
+      <div class="section2">
+        <div class="nav-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
         </div>
       </div>
+     
+    <!--Carrossel com swiper-->
+      
+      <section>
+        <div class="swiper mySwiper container-swiper">
+          <div class="swiper-wrapper content">
+            <div class="swiper-slide card-swiper">
+              <div class="card-content">
+                <div class="image" style="background-color: aqua;">
+                  <img src="" alt="" >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-wrapper content">
+            <div class="swiper-slide card-swiper">
+              <div class="card-content">
+                <div class="image" style="background-color: aqua;">
+                  <img src="" alt="" >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-wrapper content">
+            <div class="swiper-slide card-swiper">
+              <div class="card-content">
+                <div class="image" style="background-color: aqua;">
+                  <img src="" alt="" >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-wrapper content">
+            <div class="swiper-slide card-swiper">
+              <div class="card-content">
+                <div class="image" style="background-color: aqua;">
+                  <img src="" alt="" >
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="swiper-wrapper content">
+            <div class="swiper-slide card-swiper">
+              <div class="card-content">
+                <div class="image" style="background-color: aqua;">
+                  <img src="" alt="" >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      
+
+    </section>
+    
+
+    <!------------------------------->
       <div class="cards">
         <div class="texto-cards">
           <h1>Eventos para Família</h1>
@@ -207,7 +230,7 @@
           </div>
         </section>
 
-        <section class="card2">
+        <section class="card1">
           <div class="card-img">
             <img src="" alt="Contact us." style="background-color: darkcyan" />
           </div>
@@ -220,21 +243,7 @@
             <button>Learn More</button>
           </div>
         </section>
-        <section class="card2">
-          <div class="card-img">
-            <img src="" alt="Contact us." style="background-color: darkcyan" />
-          </div>
-          <div class="card-conteudo">
-            <h3>Contact us</h3>
-            <span
-              >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem
-              ipsum dolor, sit amet consectetur adipisicing elit.</span
-            >
-            <button>Learn More</button>
-          </div>
-        </section>
-
-        <section class="card2">
+        <section class="card1">
           <div class="card-img">
             <img src="" alt="Contact us." style="background-color: darkcyan" />
           </div>
@@ -248,7 +257,21 @@
           </div>
         </section>
 
-        <section class="card2">
+        <section class="card1">
+          <div class="card-img">
+            <img src="" alt="Contact us." style="background-color: darkcyan" />
+          </div>
+          <div class="card-conteudo">
+            <h3>Contact us</h3>
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit.</span
+            >
+            <button>Learn More</button>
+          </div>
+        </section>
+
+        <section class="card1">
           <div class="card-img">
             <img src="" alt="Contact us." style="background-color: darkcyan" />
           </div>
@@ -320,9 +343,12 @@
       </div>
     </footer>
   </body>
+
   <script src="index.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script
     src="https://kit.fontawesome.com/6dda5f6271.js"
     crossorigin="anonymous"
   ></script>
+   
 </html>
