@@ -203,12 +203,15 @@ header {
   margin-top: 0;
   height: 40px;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 .nav-manual {
   position: absolute;
   width: 80%;
   display: flex;
   justify-content: center;
+  
 }
 
 .nav-manual .manual-btn,
@@ -248,88 +251,92 @@ nav-auto div:not(:last-child) {
 
 /*=============carrossel(swiper) =============*/
 
-.swiper{
-  width: 1000px;
-  display: flex;
-  
+/*---==Carousel Categorias==---*/
+/*--=Categorias=--*/
+.carousel-categorias-container {
+  position: relative;
+  min-height: 15em;
+  height: 20%;
+  width: 90%;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-section .card-swiper .image{
-  height: 140px;
-  width: 140px;
-  border-radius: 50%;
-  padding: 3px;
-  background: rebeccapurple;
-  
-  
+.carousel-cabecalho {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-section .card-swiper .image img{
+.prvItem,
+.nxtItem {
+  height: 2em;
+  width: 2em;
+  border: solid 2px lightgray;
+  border-radius: 1.5em;
+  color: dodgerblue;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: white;
+  cursor: pointer;
+}
+
+.prvItem.disabled,
+.nxtItem.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.carousel-visible{
+  height: 80%;
+}
+.carousel {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid rebeccapurple;
-  
-}
-.card-swiper{
-  position: relative;
-  border-radius: 20px;
-  background:rgb(255, 255, 255);
-  margin: 20px 0;
-}
-
-.card-swiper .card-content{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  
+  transition: transform .7s ease-in-out;
 }
 
+.carousel-item {
+  flex: 0 0 20%;
+  /* Defina a largura do item do carrossel aqui */
+  height: 100%;
+  width: 100%;
+}
 
+.categoria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: .3s;
+  cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.categoria-img {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categoria-img div{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background-color: rgb(53, 141, 141);
+}
+.categoria-descricao{
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(41, 41, 41);
+}
 
 
 /* ===========Cards=========== */
