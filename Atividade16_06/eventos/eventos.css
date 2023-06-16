@@ -157,7 +157,7 @@ main {
 /*-----section-----*/
 
 .section-eventos{
-    height:60%;
+    height:70%;
     margin-top:5%;
     width: 100%;
     
@@ -174,7 +174,7 @@ height: 100%;
 }
 .items-eventos{
   width: 100%;
-  height: 60%;
+  height: 35%;
   box-shadow: 1px 2px 5px 5px rgb(243, 243, 243);
   display: flex;
   align-items: flex-end;
@@ -219,7 +219,6 @@ height: 100%;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 80px;
   
 }
 .items-eventos2{
@@ -257,7 +256,7 @@ height: 100%;
   background-color: rebeccapurple;
   color: aliceblue;
   font-size: 15px;
-  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   transition: .5s;
 }
 .comprar:hover{
@@ -305,7 +304,7 @@ li {
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
-  font-family:  "Tilt Warp", cursive;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 .sociais-footer {
   width: 100%;

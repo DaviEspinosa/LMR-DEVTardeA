@@ -148,7 +148,12 @@ main {
 }
 /* ==========fim do header ==========*/
 
-/*=====Formulário=====*/
+/*=====Main=====*/
+.main{
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
 .container-forms{
     font-family: "Courier New", Courier, monospace;
     font-weight: bold;
@@ -244,7 +249,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 60px;
+   
     
   }
   .cidades {
