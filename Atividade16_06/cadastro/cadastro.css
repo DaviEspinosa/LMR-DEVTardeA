@@ -155,7 +155,7 @@ main {
   align-items: center;
 }
 .container-forms{
-    font-family: "Courier New", Courier, monospace;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     font-weight: bold;
     background-color: aliceblue;
     border-radius:10px;
@@ -184,7 +184,7 @@ main {
 .form-control label{
     display: inline-block;
     margin-bottom: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 .form-control input{
     border: 2px solid gray;
@@ -281,7 +281,7 @@ footer {
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
-    font-family:  "Tilt Warp", cursive;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   }
   .sociais-footer {
     width: 100%;
